@@ -13,13 +13,13 @@ public class FizzBuzz {
 
 			if (number % 5 == 0) {
 				string = "Buzz";
-			}
+			} else {
 
-			if (number % 2 == 0) {
+			if (number % 3 != 0 || number % 5 != 0 ) {
 
 				string = Integer.toString(number);
 
-			}
+			} }
 
 		}
 		return string;
